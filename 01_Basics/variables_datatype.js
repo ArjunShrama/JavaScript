@@ -31,10 +31,37 @@
 
 // conversion datatypes
 
-let score = 35
+// let score = 35
 // let setScore = String(score)  // convert String
 // let setScore = Boolean(score)  // convert Boolean
 // let setScore = Null(score)  // convert Null => Null is not defined
 // let setScore = undefined(score)  // convert undefined => undefined is not a function
-console.log(setScore)
-console.log(typeof setScore)
+// console.log(setScore)
+// console.log(typeof setScore)
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) and Heap (non-Primitive)
+
+// Stack
+// let company = "Reliance"
+
+// let company2 = company
+// company2 = "Adani"
+
+// console.log(company)
+// console.log(company2)
+
+// Heap
+let student = {
+    name: "Arjun",
+    age: 22,
+    email: "arjun@gmail.com"
+}
+
+let student2 = student
+student2.email = "arjun@google.com"
+
+console.log(student)
+console.log(student2)
